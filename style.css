@@ -167,7 +167,6 @@ body{
 }
 
 .input-mail{
-    /* border: 1px solid red; */
     display: flex;
     margin: 10px 0;
     justify-content: space-between;
@@ -209,4 +208,30 @@ body{
     text-decoration: none;
     color: RGB(255, 231, 163);
     text-decoration: underline dotted;
+}
+
+.page-num{
+    border: 1px solid red;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.page-num a{
+    color: #fff;
+    text-decoration: underline dotted;
+}
+
+.page-num a:hover{
+    color: yellow;
+}
+
+.page-num a i{
+    font-size: 10px;
+}
+
+#num1{
+    color: yellow;
+    text-decoration: none;
 }
