@@ -21,12 +21,14 @@ body{
 }
 
 .navlink a{
-    margin: 0 15px;
+    margin: 0 20px;
     text-decoration: none;
     color: #fff;
     font-size: 15px;
     letter-spacing: 1px;
     font-weight: 600;
+    font-size: 18px;
+    font-family: "JetBrains Mono", monospace;
 }
 
 .navlink a:hover{
@@ -50,6 +52,7 @@ body{
     padding: 6px 10px;
     background: red;
     letter-spacing: 2px;
+    font-size: 18px;
 }
 
 .page-main{
@@ -61,8 +64,18 @@ body{
     padding: 50px
 }
 
+.page-main a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+.page-main h1{
+    font-size: 40px;
+}
+
 .highlight{
     margin: 20px 0;
+    font-size: 20px;
 }
 
 .highlight a{
@@ -74,12 +87,14 @@ body{
 }
 
 .mainbtn a{
-    margin: 0 2px;
-    padding: 6px;
+    margin: 0 4px;
+    padding: 10px 15px;
     color: white;
     text-decoration: none;
     border-radius: 20px;
     border: 1px solid #fff;
+    font-family: "JetBrains Mono", monospace;
+    transition: 0.4s;
 }
 
 .mainbtn a:hover{
@@ -111,6 +126,8 @@ body{
 #main-strategic a{
     text-decoration: none;
     color: #fff;
+    font-size: 25px;
+    transition: 0.4s;
 }
 
 #main-strategic a:hover{
@@ -119,17 +136,20 @@ body{
 
 .ways{
     margin-top: 10px;
+    font-size: 20px;
 }
 
 .date{
     margin-top: 10px;
     letter-spacing: 1px;
+    font-size: 18px;
 }
 
 .date a{
     text-decoration: none;
     color: RGB(255, 231, 163);
     font-weight: 600;
+    transition: 0.4s;
 }
 
 .date a:hover{
@@ -144,7 +164,8 @@ body{
     /* margin: 0 2px; */
     color: #fff;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
+    transition: 0.4s;
 }
 
 .primary-btn a:hover{
@@ -152,18 +173,14 @@ body{
 }
 
 .Signup{
-    /* border: 1px solid red; */
     background: #2F1C1C;
     margin-top: 40px;
     padding: 30px;
+    border-radius: 10px;
 }
 
 .Signup p{
     margin-top: 20px;
-}
-
-.email-text{
-    /* border: 1px solid red; */
 }
 
 .input-mail{
@@ -178,6 +195,11 @@ body{
     background-color: transparent;
     color: white;
     border-bottom: solid 1px #fff;
+    outline: none;
+}
+
+.input-mail input:focus{
+    border-bottom: 3px solid red;
 }
 
 .input-mail button{
@@ -192,11 +214,12 @@ body{
 .connected{
     margin: 20px 0;
     display: flex;
-    gap: 10px;
+    justify-content: space-evenly;
 }
 
 .connected p{
     margin-top: 10px;
+    font-size: 18px;
 }
 
 .connected i{
@@ -208,19 +231,22 @@ body{
     text-decoration: none;
     color: RGB(255, 231, 163);
     text-decoration: underline dotted;
+    font-family: "JetBrains Mono", monospace;
+    transition: 0.4s;
 }
 
 .page-num{
-    /* border: 1px solid red; */
     margin-top: 20px;
     display: flex;
     justify-content: center;
     gap: 20px;
+    font-size: 20px;
 }
 
 .page-num a{
     color: #fff;
     text-decoration: underline dotted;
+    transition: 0.4s;
 }
 
 .page-num a:hover{
